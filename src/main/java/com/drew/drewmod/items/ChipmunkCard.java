@@ -16,6 +16,7 @@ public class ChipmunkCard extends Item {
 	public ChipmunkCard() 
 	{
 	}
+	
 	public void addInformation(ItemStack stack, EntityPlayer player, List lores, boolean par4)
 	{
 		lores.add("§3§lSummon the lord CHIPMUNK!");
