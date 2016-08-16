@@ -66,7 +66,7 @@ public class ChrisMachine extends Block
             {
                 EntityMachinePrimed entitytntprimed = new EntityMachinePrimed(worldIn, (double)((float)pos.getX() + 0.5F), (double)pos.getY(), (double)((float)pos.getZ() + 0.5F), igniter);
                 worldIn.spawnEntityInWorld(entitytntprimed);
-                worldIn.playSound((EntityPlayer) igniter, entitytntprimed.posX, entitytntprimed.posY, entitytntprimed.posZ, DrewSoundEvents.machines, SoundCategory.BLOCKS, 1.0F, 1.0F);
+                worldIn.playSound((EntityPlayer)null, entitytntprimed.posX, entitytntprimed.posY, entitytntprimed.posZ, DrewSoundEvents.machines, SoundCategory.BLOCKS, 1.0F, 1.0F);
             }
         }
     }
